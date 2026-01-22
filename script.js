@@ -160,4 +160,4 @@ window.addEventListener('load', ()=>{
 })();
 
 
-// future improvements: login , user profiles, data storage, progress charts, reminders, tips
+
