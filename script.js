@@ -4,7 +4,7 @@
    - auto-hide navbar
 */
 
-/* ---------- Canvas ring drawing ---------- */
+/*canvas ring drawing  */
 function drawRing(canvasId, percent, color='#c99b4b', suffix='%'){
   const c = document.getElementById(canvasId);
   if(!c) return;
@@ -158,3 +158,6 @@ window.addEventListener('load', ()=>{
     }
   }, {passive:true});
 })();
+
+
+// future improvements: login , user profiles, data storage, progress charts, reminders, tips
