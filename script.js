@@ -148,7 +148,8 @@ window.addEventListener('load', ()=>{
       window.requestAnimationFrame(()=> {
         if(y > lastY && y > 80){ // scrolling down
           nav.classList.add('hidden');
-        } else { // scrolling up
+          // scrolling up
+        } else { 
           nav.classList.remove('hidden');
         }
         lastY = y;
